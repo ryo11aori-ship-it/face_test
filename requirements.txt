@@ -1,0 +1,7 @@
+numpy
+pillow
+pillow-heif
+opencv-python
+torch>=1.12     # CI で GPU がない場合は CPU 版が使われます
+facenet-pytorch
+pytest
