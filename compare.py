@@ -1,7 +1,7 @@
 import face_recognition as fr;import os;import sys;import glob
 def run():
  try:
-  x=['jpeg','png','JPEG','PNG'];fa=None;fb=None
+  x=['jpeg','png','JPG','PNG'];fa=None;fb=None
   for e in x:
    if os.path.exists(f'A.{e}'): fa=f'A.{e}'
    if os.path.exists(f'B.{e}'): fb=f'B.{e}'
